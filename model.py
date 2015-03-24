@@ -47,8 +47,8 @@ def classify_trip_tuple(param):
 
 if __name__=='__main__':
     
-    data_file = 'C:\\Stanley\\python\\kaggle\\AXADrivers\\DEV\\driver_all\\driver_all.csv'
-    submission_dir = 'C:\\Stanley\\python\\kaggle\\AXADrivers\\result'
+    data_file = '..\\kaggle\\AXADrivers\\DEV\\driver_all\\driver_all.csv'
+    submission_dir = '..\\kaggle\\AXADrivers\\result'
     tFeatures = pd.read_csv(data_file,header=False,sep=',')
     tPred = pd.DataFrame()
     pool=Pool(4)
