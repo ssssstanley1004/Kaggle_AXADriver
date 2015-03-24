@@ -102,7 +102,7 @@ def get_volatility_score(feature,n_quantile=10, name='acceleration'):
 if __name__=='__main__':
     
     n_quantile = 20
-    main_dir='C:\\Stanley\\python\\kaggle\\AXADrivers\\test3'
+    main_dir='..\\kaggle\\AXADrivers\\drivers'
     
     features = data_loading(main_dir,n_quantile)
     features.to_csv(main_dir + '\\features.csv', sep=',', header=True, index=False)
