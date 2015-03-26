@@ -1,5 +1,5 @@
 ###  Kaggle_AXADriver
-Code for Kaggle AXA Driver Telematics Analysis competition.
+Code for Kaggle AXA Driver Telematics Analysis competition. It should give 0.87868 on the LB.
 
 
 ### Data Loading:
